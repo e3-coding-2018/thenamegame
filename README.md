@@ -42,6 +42,8 @@ Put your name in the [generator](https://thenamegame-generator.com/) and see how
 
 ## Coding Time
 
+Make your changes in [TheNameGame.java](src/main/java/com/e3civichigh/coding/thenamegame/TheNameGame.java)
+
 1. Find **TODO 1** and change the code to use your name. Remember to add it as a String.
 2. Find **TODO 2** and start implementing the code according to the rules.
 . You may want to copy the rules into your code and convert them to valid Java String commands.
