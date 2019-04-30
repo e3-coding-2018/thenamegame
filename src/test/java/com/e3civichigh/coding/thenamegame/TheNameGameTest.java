@@ -2,17 +2,16 @@ package com.e3civichigh.coding.thenamegame;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class TheNameGameTest {
 
     @Test
     public void createSong() {
-        String StephenSong = null;
-        // String StephenSong = "Stephen, Stephen, bo-btephen
-        //Banana-fana fo-ftephen
-        //Fee-fi-mo-mtephen
-        //Stephen!
+        String StephenSong = "Stephen, Stephen, bo-btephen\n" +
+                "Banana-fana fo-ftephen\n" +
+                "Fee-fi-mo-mtephen\n" +
+                "Stephen!\n";
         TheNameGame game = new TheNameGame();
         assertEquals(StephenSong, game.createSong("Stephen"));
     }
